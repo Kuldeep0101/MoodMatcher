@@ -49,11 +49,86 @@ body h3 {
     font-size: 110%;
     margin-left: 2%;
     padding: 1%;
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
 }
 
-#mood button:hover {
+/* #mood button:hover {
     background-color: #0A97B0
+} */
+
+#music-player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: wheat ;
 }
 
+/* Happy button */
+#happy {
+    background-color: #FFD700; /* Bright yellow */
+    color: white;
+  }
+  
+  #happy:hover {
+    background-color: #FFC300; /* Lighter yellow */
+    transform: scale(1.05);
+  }
+  
+  /* Sad button */
+  #sad {
+    background-color: #6495ED; /* Cornflower blue */
+    color: white;
+  }
+  
+  #sad:hover {
+    background-color: #4169E1; /* Royal blue */
+    transform: scale(1.05);
+  }
+  
+  /* Relaxed button */
+  #relaxed {
+    background-color: #20B2AA; /* Light sea green */
+    color: white;
+  }
+  
+  #relaxed:hover {
+    background-color: #2E8B57; /* Sea green */
+    transform: scale(1.05);
+  }
+  
+  /* Motivated button */
+  #motivated {
+    background-color: #FF6347; /* Tomato red */
+    color: white;
+  }
+  
+  #motivated:hover {
+    background-color: #FF4500; /* Orange red */
+    transform: scale(1.05);
+  }
+  
+  /* Party button */
+  #party {
+    background-color: #FF1493; /* Deep pink */
+    color: white;
+  }
+  
+  #party:hover {
+    background-color: #FF69B4; /* Hot pink */
+    transform: scale(1.05);
+  }
+
+  /*  Romantic Button */
+
+  /* Party button */
+  #romantic {
+    background-color: #5631a2; /* Hot pink */
+    color: white;
+  }
+  
+  #romantic:hover {
+    background-color: #d6132a; /* Deep pink */
+    transform: scale(1.05);
+  }
